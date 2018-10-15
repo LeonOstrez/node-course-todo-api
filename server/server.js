@@ -4,7 +4,7 @@ const {ObjectId} = require('mongodb');
 
 var {mongoose} = require('./db/mongoose.js');
 var {Todo} = require('./models/todo.js');
-var {User} = require('./models/User.js');
+var {User} = require('./models/user.js');
 
 
 var app = express();
